@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday | Mikasa Ackerman × Leanderrr 🔥</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<!-- =====================================================
+     PASSWORD SCREEN
+===================================================== -->
+
+<div id="passwordScreen">
+
+    <div class="password-overlay">
+
+        <div class="password-box">
+
+            <div class="ff-logo">
+                FREE FIRE
+            </div>
+
+            <div class="mission-label">
+                SPECIAL EVENT
+            </div>
+
+            <h1>🔥</h1>
+
+            <h2>HAPPY BIRTHDAY</h2>
+
+            <p>
+                A special compliment has been created
+                <br>
+                for someone very special.
+            </p>
+
+
+            <div class="player-info">
+
+                <span>FROM</span>
+
+                <strong>
+                    Mikasa Ackerman
+                </strong>
+
+
+                <span>TO</span>
+
+                <strong>
+                    Leanderrr
+                </strong>
+
+            </div>
+
+
+            <input
+                type="password"
+                id="passwordInput"
+                placeholder="ENTER SECRET PIN"
+                maxlength="4"
+            >
+
+
+            <button onclick="checkPassword()">
+                UNLOCK MESSAGE 🔥
+            </button>
+
+
+            <p class="hint">
+                Enter your secret 4-digit PIN
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     WEBSITE CONTENT
+===================================================== -->
+
+<div id="websiteContent">
+
+
+<audio id="music" loop>
+
+    <source
+        src="assets/music/blessed.mp3"
+        type="audio/mpeg"
+    >
+
+</audio>
+
+
+
+<!-- =====================================================
+     PARTICLE CONTAINERS
+===================================================== -->
+
+<div id="hearts"></div>
+
+<div id="particles"></div>
+
+
+
+<!-- =====================================================
+     FREE FIRE ELEMENTS
+===================================================== -->
+
+<div class="ff-elements">
+
+
+    <img
+        src="assets/elements/fire.png"
+        class="ff-element ff-fire"
+        alt="Fire"
+    >
+
+
+    <img
+        src="assets/elements/diamond.png"
+        class="ff-element ff-diamond"
+        alt="Diamond"
+    >
+
+
+    <img
+        src="assets/elements/rank.png"
+        class="ff-element ff-rank"
+        alt="Rank"
+    >
+
+
+    <img
+        src="assets/elements/lootbox.png"
+        class="ff-element ff-lootbox"
+        alt="Loot Box"
+    >
+
+
+    <img
+        src="assets/elements/weapon.png"
+        class="ff-element ff-weapon"
+        alt="Weapon"
+    >
+
+
+    <img
+        src="assets/elements/character.png"
+        class="ff-element ff-character"
+        alt="Character"
+    >
+
+
+    <img
+        src="assets/elements/effect.png"
+        class="ff-element ff-effect"
+        alt="Effect"
+    >
+
+
+    <img
+        src="assets/elements/parachute.png"
+        class="ff-element ff-parachute"
+        alt="Parachute"
+    >
+
+</div>
+
+
+
+<!-- =====================================================
+     GAME HUD
+===================================================== -->
+
+<div class="game-hud">
+
+
+    <div class="hud-player">
+
+        <div class="avatar">
+            M
+        </div>
+
+
+        <div>
+
+            <span>
+                PLAYER
+            </span>
+
+            <strong>
+                Mikasa Ackerman
+            </strong>
+
+
+            <div class="hp-bar">
+
+                <div class="hp-fill"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="hud-stats">
+
+
+        <div>
+
+            ❤️
+
+            <span>
+                RESPECT
+            </span>
+
+            <strong>
+                ∞
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            💎
+
+            <span>
+                COMPLIMENT
+            </span>
+
+            <strong>
+                999+
+            </strong>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero">
+
+
+    <div class="hero-overlay"></div>
+
+
+    <!-- HERO DECORATION -->
+
+
+    <img
+        src="assets/elements/parachute.png"
+        class="hero-element hero-parachute"
+        alt=""
+    >
+
+
+    <img
+        src="assets/elements/character.png"
+        class="hero-element hero-character"
+        alt=""
+    >
+
+
+    <img
+        src="assets/elements/fire.png"
+        class="hero-element hero-fire"
+        alt=""
+    >
+
+
+    <img
+        src="assets/elements/effect.png"
+        class="hero-element hero-effect"
+        alt=""
+    >
+
+
+
+    <div class="hero-content">
+
+
+        <div class="mission-tag">
+
+            ⚡ SPECIAL EVENT ⚡
+
+        </div>
+
+
+        <p class="small-title">
+
+            MIKASA ACKERMAN × LEANDERRR
+
+        </p>
+
+
+        <h1>
+
+            HAPPY
+
+            <span>
+                BIRTHDAY
+            </span>
+
+        </h1>
+
+
+        <h2>
+
+            LEANDERRR 🔥
+
+        </h2>
+
+
+        <p class="hero-text">
+
+            Another year unlocked.
+
+            <br>
+
+            And here's a little compliment for you.
+
+        </p>
+
+
+        <button
+            onclick="openGift()"
+            class="start-button"
+        >
+
+            ▶ OPEN COMPLIMENT
+
+        </button>
+
+
+        <div class="mission-status">
+
+            <span>
+                EVENT STATUS
+            </span>
+
+            <strong>
+                UNLOCKED ❤️
+            </strong>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     COMPLIMENT CARD
+===================================================== -->
+
+<section
+    id="giftSection"
+    class="section"
+>
+
+
+    <div class="mission-card">
+
+
+        <div class="card-header">
+
+            <span>
+                COMPLIMENT #001
+            </span>
+
+            <span>
+                UNLOCKED ✓
+            </span>
+
+        </div>
+
+
+        <div class="mission-icon">
+
+            🎁
+
+        </div>
+
+
+        <h2>
+
+            FOR LEANDERRR
+
+        </h2>
+
+
+        <p>
+
+            Happy birthday, Lean.
+
+            <br><br>
+
+            First of all, gue berdoa semoga di umur baru ini
+            lu selalu dikasih kesehatan, panjang umur,
+            dimudahkan dalam setiap langkah yang lu ambil,
+            dan dikelilingi orang-orang yang genuinely care
+            about you.
+
+            <br><br>
+
+            Semoga apa pun yang sedang lu usahakan
+            bisa berjalan dengan baik, semoga hal-hal baik
+            datang ke hidup lu, dan semoga lu selalu punya
+            alasan untuk tetap menghargai hidup dan segala
+            proses yang sedang lu jalani.
+
+            <br><br>
+
+            <strong>
+                HAPPY BIRTHDAY, LEAN. ❤️
+            </strong>
+
+        </p>
+
+
+        <div class="mission-reward">
+
+            <span>
+                REWARD UNLOCKED
+            </span>
+
+            <strong>
+                💎 ANOTHER YEAR OF YOU
+            </strong>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     INVENTORY / MEMORIES
+===================================================== -->
+
+<section class="section">
+
+
+    <div class="section-heading">
+
+        <span>
+            INVENTORY
+        </span>
+
+        <h2>
+            EIGHT MEMORIES 📸
+        </h2>
+
+        <p>
+            8 memories unlocked.
+        </p>
+
+    </div>
+
+
+
+    <div class="photo-grid">
+
+
+        <div class="photo-card">
+
+            <div class="item-number">
+                #01
+            </div>
+
+            <img
+                src="assets/photos/photo1.jpg"
+                alt="Memory 1"
+            >
+
+            <div class="photo-info">
+
+                <span>
+                    MEMORY ITEM
+                </span>
+
+                <strong>
+                    UNLOCKED ❤️
+                </strong>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="photo-card">
+
+            <div class="item-number">
+                #02
+            </div>
+
+            <img
+                src="assets/photos/photo2.jpg"
+                alt="Memory 2"
+            >
+
+            <div class="photo-info">
+
+                <span>
+                    MEMORY ITEM
+                </span>
+
+                <strong>
+                    UNLOCKED ❤️
+                </strong>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="photo-card">
+
+            <div class="item-number">
+                #03
+            </div>
+
+            <img
+                src="assets/photos/photo3.jpg"
+                alt="Memory 3"
+            >
+
+            <div class="photo-info">
+
+                <span>
+                    MEMORY ITEM
+                </span>
+
+                <strong>
+                    UNLOCKED ❤️
+                </strong>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="photo-card">
+
+            <div class="item-number">
+                #04
+            </div>
+
+            <img
+                src="assets/photos/photo4.jpg"
+                alt="Memory 4"
+            >
+
+            <div class="photo-info">
+
+                <span>
+                    MEMORY ITEM
+                </span>
+
+                <strong>
+                    UNLOCKED ❤️
+                </strong>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="photo-card">
+
+            <div class="item-number">
+                #05
+            </div>
+
+            <img
+                src="assets/photos/photo5.jpg"
+                alt="Memory 5"
+            >
+
+            <div class="photo-info">
+
+                <span>
+                    MEMORY ITEM
+                </span>
+
+                <strong>
+                    UNLOCKED ❤️
+                </strong>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="photo-card">
+
+            <div class="item-number">
+                #06
+            </div>
+
+            <img
+                src="assets/photos/photo6.jpg"
+                alt="Memory 6"
+            >
+
+            <div class="photo-info">
+
+                <span>
+                    MEMORY ITEM
+                </span>
+
+                <strong>
+                    UNLOCKED ❤️
+                </strong>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="photo-card">
+
+            <div class="item-number">
+                #07
+            </div>
+
+            <img
+                src="assets/photos/photo7.jpg"
+                alt="Memory 7"
+            >
+
+            <div class="photo-info">
+
+                <span>
+                    MEMORY ITEM
+                </span>
+
+                <strong>
+                    UNLOCKED ❤️
+                </strong>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="photo-card">
+
+            <div class="item-number">
+                #08
+            </div>
+
+            <img
+                src="assets/photos/photo8.jpg"
+                alt="Memory 8"
+            >
+
+            <div class="photo-info">
+
+                <span>
+                    MEMORY ITEM
+                </span>
+
+                <strong>
+                    UNLOCKED ❤️
+                </strong>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PLAYER STATS
+===================================================== -->
+
+<section class="section">
+
+
+    <div class="section-heading">
+
+        <span>
+            PLAYER STATS
+        </span>
+
+        <h2>
+            WHY YOU'RE WORTH APPRECIATING 🤍
+        </h2>
+
+        <p>
+            A few things that make you, you.
+        </p>
+
+    </div>
+
+
+
+    <div class="stats-grid">
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+                🧠
+            </div>
+
+            <h3>
+                YOUR MIND
+            </h3>
+
+            <p>
+                Gue suka cara lu berpikir,
+                cara lu punya perspektif sendiri,
+                dan cara lu gak gampang kebawa
+                omongan orang.
+            </p>
+
+        </div>
+
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+                💎
+            </div>
+
+            <h3>
+                YOUR PRINCIPLES
+            </h3>
+
+            <p>
+                Lu punya prinsip sendiri dan cara
+                sendiri dalam melihat sesuatu.
+                Mungkin gak semuanya mudah dipahami,
+                tapi itu juga bagian dari diri lu.
+            </p>
+
+        </div>
+
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+                🔥
+            </div>
+
+            <h3>
+                YOUR COMPLEXITY
+            </h3>
+
+            <p>
+                Gue gak melihat lu sebagai seseorang
+                yang harus sempurna. Lu punya flaws,
+                punya sisi kompleks, dan tetap punya
+                banyak hal baik di dalam diri lu.
+            </p>
+
+        </div>
+
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+                ♾️
+            </div>
+
+            <h3>
+                YOUR GROWTH
+            </h3>
+
+            <p>
+                Gue percaya lu masih punya banyak
+                hal untuk ditemukan dalam diri lu
+                sendiri dan masih punya banyak ruang
+                untuk terus bertumbuh.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     LETTER
+===================================================== -->
+
+<section class="section">
+
+
+    <div class="section-heading">
+
+        <span>
+            PRIVATE MESSAGE
+        </span>
+
+        <h2>
+            A LETTER FOR LEANDERRR 💌
+        </h2>
+
+    </div>
+
+
+
+    <div class="letter-box">
+
+
+        <div class="letter-top">
+
+            <span>
+                FROM: MIKASA ACKERMAN
+            </span>
+
+            <span>
+                TO: LEANDERRR
+            </span>
+
+        </div>
+
+
+
+        <div class="letter-content">
+
+
+            <h2>
+                Happy Birthday, Lean.
+            </h2>
+
+
+            <p>
+
+                First of all, gue berdoa semoga di umur baru ini
+                lu selalu dikasih kesehatan, panjang umur,
+                dimudahkan dalam setiap langkah yang lu ambil,
+                dan dikelilingi orang-orang yang genuinely care
+                about you.
+
+                <br><br>
+
+                Semoga apa pun yang sedang lu usahakan bisa
+                berjalan dengan baik, semoga hal-hal baik datang
+                ke hidup lu, dan semoga lu selalu punya alasan
+                untuk tetap menghargai hidup dan segala proses
+                yang sedang lu jalani.
+
+                <br><br>
+
+                Semoga di umur yang baru ini lu juga semakin
+                mengenal diri lu sendiri. Semoga lu bisa memahami
+                apa yang sebenarnya lu mau, apa yang perlu lu
+                pertahankan, dan apa yang mungkin sudah waktunya
+                lu lepaskan.
+
+                <br><br>
+
+                Gue berharap lu bisa berdamai sama hal-hal dalam
+                diri lu yang mungkin masih belum selesai, karena
+                menurut gue, growing up isn't only about becoming
+                older, tapi juga tentang becoming more aware of
+                who you are and how your presence affects the
+                people around you.
+
+                <br><br>
+
+                Gue sebenarnya gak pernah bermaksud buat ngubah lu
+                jadi seseorang yang sesuai sama ekspektasi gue.
+                Even with everything I know about you, gue tetap
+                bisa appreciate the good things in you.
+
+                <br><br>
+
+                Gue suka cara lu berpikir, cara lu punya perspektif
+                sendiri, cara lu gak gampang kebawa omongan orang,
+                dan cara lu punya prinsip yang mungkin belum bisa
+                dipahami.
+
+                <br><br>
+
+                Mungkin ada beberapa hal tentang lu yang menurut gue
+                kurang baik, atau ada sisi dari lu yang eventually
+                bisa bikin orang lain sakit hati. Dan gue rasa itu
+                juga bagian dari proses seseorang dalam mengenal
+                dirinya sendiri.
+
+                <br><br>
+
+                Karena orang lain juga punya perasaan dan pengalaman
+                mereka sendiri sama kita. Kalau ada seseorang yang
+                pernah merasa disakitin atau diperlakukan kurang baik
+                karena behavior kita, mungkin gak semuanya harus
+                langsung dianggap benar, tapi bukan berarti perasaan
+                mereka gak ada nilainya.
+
+                <br><br>
+
+                Sometimes, maturity is being able to understand that
+                our intentions and the impact we leave on someone
+                can be two different things.
+
+                <br><br>
+
+                And honestly, you're still someone I admire.
+
+                <br><br>
+
+                Bukan karena gue menganggap lu sempurna, tapi justru
+                karena gue tahu lu punya sisi yang kompleks. Lu punya
+                flaws, punya cara sendiri dalam menghadapi sesuatu,
+                dan mungkin gak semuanya akan cocok sama gue.
+
+                <br><br>
+
+                But that's okay.
+
+                <br><br>
+
+                Gue tetap bisa melihat banyak hal baik dari diri lu
+                tanpa harus menutup mata sama sisi-sisi yang mungkin
+                masih perlu lu benahi.
+
+                <br><br>
+
+                Gue juga merasa lu masih punya banyak hal untuk
+                ditemukan dalam diri lu sendiri. Mungkin ada bagian
+                dari lu yang masih mencari arah, masih belajar
+                memahami perasaan sendiri, atau masih belajar
+                bagaimana memperlakukan orang lain dengan lebih baik.
+
+                <br><br>
+
+                Dan gue harap umur baru ini bisa jadi salah satu
+                bagian dari perjalanan itu.
+
+                <br><br>
+
+                Pelan-pelan aja, gak harus langsung menjadi seseorang
+                yang sempurna.
+
+                <br><br>
+
+                Dan mungkin itu juga yang bikin perasaan gue ke lu
+                terasa berbeda. Gue gak pernah melihat lu sebagai
+                seseorang yang harus sempurna supaya bisa gue hargai.
+
+                <br><br>
+
+                Gue cuma genuinely suka dengan keberadaan lu,
+                dengan cara lu menjadi diri lu sendiri, dengan segala
+                hal yang gue pahami dan yang mungkin belum gue pahami
+                tentang lu.
+
+                <br><br>
+
+                Kalau suatu hari lu memilih jalan yang berbeda,
+                gue rasa gue juga harus belajar buat let things be.
+
+                <br><br>
+
+                Gak semua rasa harus punya ending yang kita bayangkan,
+                dan gak semua orang yang kita kagumi harus berakhir
+                menjadi seseorang yang kita miliki.
+
+                <br><br>
+
+                Sometimes, liking someone can simply mean being
+                grateful that we got to know them at all.
+
+                <br><br>
+
+                Jadi apa pun yang nantinya terjadi, gue harap lu tetap
+                menjadi seseorang yang terus bertumbuh.
+
+                <br><br>
+
+                Bukan berubah menjadi orang lain, tapi menjadi versi
+                diri lu yang lebih sadar, lebih tenang, dan lebih baik
+                daripada sebelumnya.
+
+                <br><br>
+
+                And for what it's worth, you're still someone worth
+                appreciating.
+
+                <br><br>
+
+                Even when you're imperfect, even when we don't always
+                see things the same way, and even when there are parts
+                of you that are still figuring themselves out.
+
+                <br><br>
+
+                Gue gak menyesal pernah mengenal lu, dan gue gak
+                menyesal pernah punya rasa yang sebesar ini ke lu.
+
+                <br><br>
+
+                Happy birthday once again, Lean.
+
+                <br><br>
+
+                Semoga umur baru ini membawa lu ke banyak tempat baik,
+                mempertemukan lu dengan orang-orang baik, dan membuat
+                lu semakin mengerti bahwa setiap tindakan kecil yang
+                kita lakukan bisa meninggalkan sesuatu dalam hidup
+                orang lain.
+
+                <br><br>
+
+                Semoga lu tumbuh dengan hati yang lebih lembut,
+                pikiran yang lebih luas, dan kehidupan yang lebih damai.
+
+                <br><br>
+
+                Take care of yourself, Lean.
+
+                <br><br>
+
+                I hope this year is kind to you.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="letter-signature">
+
+            <span>
+                FROM
+            </span>
+
+            <strong>
+                Mikasa Ackerman
+            </strong>
+
+            <span>
+                WITH APPRECIATION 🤍
+            </span>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FINAL EVENT
+===================================================== -->
+
+<section class="final-section">
+
+
+    <!-- FINAL ELEMENTS -->
+
+    <img
+        src="assets/elements/rank.png"
+        class="final-element final-rank"
+        alt=""
+    >
+
+
+    <img
+        src="assets/elements/diamond.png"
+        class="final-element final-diamond"
+        alt=""
+    >
+
+
+    <img
+        src="assets/elements/lootbox.png"
+        class="final-element final-lootbox"
+        alt=""
+    >
+
+
+    <div class="victory-screen">
+
+
+        <div class="victory-icon">
+            🏆
+        </div>
+
+
+        <span>
+            EVENT COMPLETED
+        </span>
+
+
+        <h2>
+            HAPPY
+        </h2>
+
+
+        <h1>
+            BIRTHDAY 🤍
+        </h1>
+
+
+        <p>
+            Mikasa Ackerman × Leanderrr
+        </p>
+
+
+
+        <div class="final-stats">
+
+
+            <div>
+
+                <span>
+                    RESPECT
+                </span>
+
+                <strong>
+                    ∞
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    YEARS
+                </span>
+
+                <strong>
+                    +1
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    STATUS
+                </span>
+
+                <strong>
+                    SPECIAL ❤️
+                </strong>
+
+            </div>
+
+
+        </div>
+
+
+
+        <p class="final-message">
+
+            Keep growing.
+
+            <br>
+
+            Keep learning,
+            keep becoming yourself.
+
+            <br><br>
+
+            And don't forget to take care of yourself.
+
+            <br><br>
+
+            I hope this year is kind to you.
+
+        </p>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ENDING
+===================================================== -->
+
+<section class="ending">
+
+
+    <div class="ending-line"></div>
+
+
+    <h2>
+        MIKASA ACKERMAN × LEANDERRR
+    </h2>
+
+
+    <p>
+        ONE COMPLIMENT. ONE SPECIAL DAY. ♾️
+    </p>
+
+
+    <span>
+        HAPPY BIRTHDAY • 2026
+    </span>
+
+
+    <div class="ending-line"></div>
+
+
+</section>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+                      </html>
